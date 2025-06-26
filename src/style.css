@@ -1,0 +1,26 @@
+:root {
+  font-family: system-ui, Inter, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  place-items: center;
+  line-height: 1.5;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+p {
+  margin: 0;
+}
