@@ -95,7 +95,7 @@ const statusIcon = computed(() => {
   if (props.status !== "in progress") return statusIcons[props.status]
   else return ""
 })
-const statusIcons = { "success": "/s.svg", "error": "/e.svg", "warning": "/w.svg" }
+const statusIcons = { "success": "/progress/s.svg", "error": "/progress/e.svg", "warning": "/progress/w.svg" }
 
 const statusColor = computed(() => {
   if (props.status) {
